@@ -1,33 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <meta charset="UTF-8">
 	    <title>Резюме</title>
+        <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <header>
-            <img src="photo.jpeg" alt="" height="200px">
-            <h1>Козирєв Максім Костянтинович</h1>
-            <p>студент Національного унівеситету "Львівська політехніка"</p>
-        </header>
-        <main>
-            <h2>Досвід роботи</h2>
-            <p>
-                <ul>
-                    <li>2020-2021: Оператор відеомонажу, "Здоровий Рух", Київ, Україна</li> 
-                    <li> 2023-2025: Customer Support, "Namecheap", Фінікс, Арізона, США</li>     
-                </ul>
-           </p>
-            <h2>Хобі</h2>
-            <p>Гітара, програмування, CGI, airsoft</p>            
-        </main>
-        <footer>
-            <h2>Контакти</h2>
-            <p>
-                <b>Email:</b> contact@maksimkozyriev.com<br/>
-                <b>Phone:</b> +38-095-878-96-34<br/>
-                <b>Telegram:</b> @maskimof
-            </p>
-        </footer>
+        <div class="container grid main-grid">
+            <div class="cell">
+                <img src="photo.jpeg" class="">
+            </div>
+            <div class="grid secondary-grid-1">
+                <div></div>
+                <div class="cell">
+                    <h2>Student</h2>
+                </div>
+                <div></div>
+                <div class="cell">
+                    <h1>Maksim Kozyriev</h1>
+                    <h2>Objective</h2>
+                    <p>Improve, grow, complete</p>
+                </div>
+            </div>
+            <div class="cell">
+                <div class="item">
+                    <h2>Contact</h2>
+                    <p>
+                        Lviv, Ukraine<br>
+                        contact@maksimkozyriev.com<br>
+                        +38 095 878 9634
+                    </p>
+                </div>
+                <div class="item">
+                    <h2>Education</h2>
+                    <p><b>
+                        <div class="subitem">
+                            <p class="upper">Lviv Polytechnic National University</p>
+                            Cybersecurity Expert. Lviv, Ukraine
+                        </div>
+                        <div class="subitem">
+                            <p class="upper">Scientific Lyceum</p>
+                            Bio-chemical faculty. Kropyvnytskyi, Ukraine
+                        </div>
+                    </b></p>
+                </div>
+                <div class="item">
+                    <h2>Skills</h2>
+                    <div class="progress-bar">
+                        <p>Coding</p>
+                        <div class="bound">
+                            <div class="fill f4"></div>
+                        </div>
+                    </div>
+                    <div class="progress-bar">
+                        <p>Graphics design</p>
+                        <div class="bound">
+                            <div class="fill f3"></div>
+                        </div>
+                    </div>
+                    <div class="progress-bar">
+                        <p>Movie director</p>
+                        <div class="bound">
+                            <div class="fill f3"></div>
+                        </div>
+                    </div>
+                    <div class="progress-bar">
+                        <p>Networking</p>
+                        <div class="bound">
+                            <div class="fill f3"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid secondary-grid-2">
+                <div></div>
+                <div class="cell">
+                    <h2>Experience</h2>
+                    <div class="subitem">
+                        <b>
+                            <p class="upper">Video Editor</p>
+                            <p>Zdorovyi Rukh | Kyiv, Ukraine | 2020-2021</p>
+                        </b>
+                        <p class="description">Editing weekly videos for the health-oriented organization.</p>
+                    </div>
+                    <div class="subitem">
+                        <b>
+                            <p class="upper">Domains Customer Support</p>
+                            <p>Namecheap | Phoenix, Arizona, USA | 2023-present</p>
+                        </b>
+                        <p class="description">Live or email interaction with clients, resolving technical issues with company's services.</p>
+                    </div>
+                </div>
+                <div></div>
+                <div class="cell">
+                    <h2>Languages</h2>
+                    <div class="progress-bar">
+                        <p>English</p>
+                        <div class="bound">
+                            <div class="fill f4"></div>
+                        </div>
+                    </div>
+                    <div class="progress-bar">
+                        <p>Ukrainian</p>
+                        <div class="bound">
+                            <div class="fill f5"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </body>
 </html>
 

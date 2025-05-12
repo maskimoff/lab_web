@@ -1,0 +1,133 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    line-height: calc(1em + 0.5rem);
+}
+
+body {
+    font-family: 'Futura', sans-serif;
+}
+
+:root {
+    --primary: #3742ff;
+    --secondary: #fffad6;
+}
+
+.container {
+    width: 50dvw;
+    margin: 4rem auto;
+}
+
+.grid {
+    display: grid;
+}
+
+.grid > * {
+    border: 1px dashed gray;
+}
+
+.main-grid {
+    grid-template-columns: 4fr 5fr;
+    grid-template-rows: 3fr 5fr;
+}
+
+.secondary-grid-1 {
+    grid-template-columns: 1fr 20fr;
+    grid-template-rows: 1fr 6fr;
+}
+
+.secondary-grid-2 {
+    grid-template-columns: 1fr 20fr;
+    grid-template-rows: 3fr 2fr;
+}
+
+.dashed-border {
+    border: 1px dashed gray;
+}
+
+.cell {
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3rem;
+}
+
+.subitem {
+    margin-bottom: 1rem;
+}
+
+.upper {
+    text-transform: uppercase;
+}
+
+.description {
+    margin-block: 1rem;
+}
+
+.progress-bar {
+
+}
+
+.bound {
+    height: 1rem;
+    width: 10rem;
+    border: 1px solid var(--primary);
+}
+
+.fill {
+    height: 1rem;
+    background-color: var(--primary);
+}
+
+.f3 {
+    width: 6rem;
+}
+
+.f4 {
+    width: 8rem;
+}
+
+.f5 {
+    width: 10rem;
+}
+
+h1 {
+    font-size: 4rem;
+    font-weight: normal;
+    color: var(--primary);
+    margin-block: 2rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: normal;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    color: var(--primary);
+}
+
+p {
+    font-size: 1rem;
+}
+
+img {
+    margin: 0 2rem 2.5rem 0;
+    object-fit: cover;
+    width: 20rem;
+    height: 25rem;
+}
+
+body {
+    background-color: var(--secondary);
+}
