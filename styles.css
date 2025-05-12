@@ -225,7 +225,7 @@ textarea {
     border-radius: 100%;
     position: absolute;
     top: 1rem;
-    right: 1rem;
+    left: 1rem;
     display: flex;
     align-items: center;
     justify-content: center;
