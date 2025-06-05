@@ -23,7 +23,6 @@ for (const [key, value] of Object.entries(browserInfo)) {
 }
 browserInfoHTML += '</ol>';
 
-
 divBrowserInfo.innerHTML = browserInfoHTML;
 
 // Comments
