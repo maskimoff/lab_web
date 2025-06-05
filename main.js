@@ -64,7 +64,7 @@ function hideForm() {
     divForm.hidden = true;
 }
 
-setTimeout(showForm, 15 * 1000);
+setTimeout(showForm, 1 * 1000);
 
 // Mode
 function switchMode() {

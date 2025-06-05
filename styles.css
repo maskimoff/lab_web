@@ -178,7 +178,10 @@ footer {
 .modal {
     position: absolute;
     top: 10dvh;
-    left: 40dvw;
+    left: 0;
+    right: 0;
+    margin-inline: auto;
+    width: fit-content;
     background-color: var(--modal-bg);
     padding: 2rem;
     border-radius: 1rem;
